@@ -2,7 +2,7 @@
 //  AwardsCollectionAppApp.swift
 //  AwardsCollectionApp
 //
-//  Created by Kristi on 12.02.2022.
+//  Created by Kristel Maximova on 12.02.2022.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct AwardsCollectionAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView()
         }
     }
 }
