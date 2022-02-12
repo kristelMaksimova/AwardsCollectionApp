@@ -45,8 +45,11 @@ struct CustomGridView<Content, T>: View where Content: View {
 struct CustomGridView_Previews: PreviewProvider {
     static var previews: some View {
         CustomGridView(items: [11, 3, 7, 17, 5, 2, 1], columns: 3) { sideLenght, item in
-            Text("\(item)")
-        .frame(width: sideLenght, height: sideLenght)
+            VStack {
+                Text("\(item)")
+            }
+            .padding()
+            .frame(width: sideLenght, height: sideLenght)
         }
     }
 }
